@@ -1,0 +1,60 @@
+#navbar {
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    overflow: hidden;
+    height: auto;
+}
+
+#navbar ul li a {
+    padding-right: 50px;
+}
+
+.dark-color label {
+    display: initial;
+}
+
+.dark-color #navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background: rgb(40, 40, 70);
+    border-top: 1px solid rgba(0, 0, 0, .1);
+}
+
+.dark-color #navbar ul li {
+    width: 100%;
+}
+
+.dark-color #navbar ul li ul {
+    position: relative;
+    width: 100%;
+}
+
+.dark-color #navbar ul li ul li ul {
+    width: 100%;
+    left: 0;
+}
+
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 150px;
+}
+
+#home .name h2 {
+    padding-top: 10px;
+}
+
+#inf {
+    width: 100%;
+
+}
+
+#inf .inf-info .inf-info-heading {
+    text-align: center;
+    font-size: 50px;
+}
